@@ -1,3 +1,17 @@
+/* logo */
+.logo {
+color: #000000;
+font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+}
+.wed {
+color: #2196F3;
+text-decoration: none;
+}
+
 :root {
     --background-dark-grey: #2F303A;
     --grey-color: #757575;
