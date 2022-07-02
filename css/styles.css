@@ -1,14 +1,41 @@
+:root {
+    /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* text colors */
+    --main-txy-cl:#212121;
+    --sec-txt-cl:#757575;
+    --accet-txt-cl: #2196F3;
+
+    /* bg color */
+
+    --darc-bg-cl: #2f303a;
+    --light-bg-cl: #F5F4FA;
+
+    /* others */
+}
+/* reset styles */
+.link {}
+.link{}
+
+/* body section */
+body {
+    font-family: var(--main-font);
+    color: var(--main-txy-cl);
+}
+ /*header section */
 /* logo */
 .logo {
-color: #000000;
-font-family: 'Raleway';
+color: var(--main-txy-cl);
+font-family: var(--main-font)
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     text-decoration: none;
 }
-.wed {
-color: #2196F3;
+.web {
+color: var(--accet-txt-cl);
 text-decoration: none;
 }
 
