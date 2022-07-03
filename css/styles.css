@@ -16,24 +16,24 @@
     /* others */
 }
     /* body section */
-        body {
-            font-family: var(--main-font);
-                color: var(--main-txy-cl);
-        }
+.body {
+    font-family: var(--main-font);
+    color: var(--main-txy-cl);
+    }
     
 /* reset styles */
 .link {
     text-decoration: none;
     color: currentColor;
+    font-style: normal;
 }
-
 .list {
     list-style: none;
 }
 /**
-  |============================
-  | Header section
-  |============================
+|============================
+| Header section
+|============================
 */
 /* logo */
 .logo {
@@ -49,99 +49,99 @@
 }
 .header-lis,
 .header-nav {
-font-weight: 500;
+    font-weight: 500;
     font-size: 14px;
-    line-height: calc(16/14);
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: var(--main-txy-cl);
+
 }
 .header-nav:hover 
 .header-nav:focus {
-color: var(--accet-txt-cl);
+    color: var(--accet-txt-cl);
 }
 
-.header-item-current {
+.header-item-current,
+.header-item-current-section {
     color: var(--accet-txt-cl);
 }
 .header-mail-current {
-color: var(--accet-txt-cl);
+    color: var(--accet-txt-cl);
 }
-
 /**
-  |============================
-  | Hero section
-  |============================
+|============================
+| Hero section
+|============================
 */
 .main {
     background-color: var(--darc-bg-cl);
     font-weight: 900;
-        font-size: 44px;
-        line-height: var(60 / 44);
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: #FFFFFF;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 .btn {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: var(30 / 16);
+    line-height: calc(30 / 16);
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
     cursor: pointer;
 }
-
-
-
-
-
+.adout-info,
+.adout-tim-info,
+.tim-info {
+    text-align: center;
+}
+.work-cards{
+list-style: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+/**
+|============================
+| Footer section
+|============================
+*/
+.footer {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2F303A;
+}
 /* logo footer*/
 .logo {
     color: var(--main-txy-cl);
-    font-family: var(--main-font) font-weight: 700;
+    font-family: var(--main-font);
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31 /26);
     text-decoration: none;
 }
-
 .web {
     color: var(--accet-txt-cl);
     text-decoration: none;
 }
 .studio {
-color: white;
-text-decoration: none;
-
-}
-.general-info {
-text-transform: uppercase;
-}
-.info-about {
-text-transform: uppercase;
+    color: white;
+    text-decoration: none;
 }
 
-
-/*footer */
-.footer {
-    background-color: var(--background-dark-grey);
-}
-
-.footer:hover,
-.footer:focus {
-    color: var(--white-color);
-}
-
-.address {
-    font-style: inherit;
-}
-
-.address-link {
-    color: var(--white-color);
-}
-
-.address-link:hover,
-.address-link:focus {
-    color: var(--footer-primary-color);
-}
+/**
+|============================
+| Header section
+|============================
+*/
