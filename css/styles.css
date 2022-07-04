@@ -9,18 +9,17 @@
     --accet-txt-cl: #2196F3;
 
     /* bg color */
-
     --darc-bg-cl: #2f303a;
     --light-bg-cl: #F5F4FA;
 
     /* others */
 }
     /* body section */
-.body {
+body {
     font-family: var(--main-font);
     color: var(--main-txy-cl);
+    background-color: var(--light-bg-cl)
     }
-    
 /* reset styles */
 .link {
     text-decoration: none;
@@ -47,26 +46,44 @@
     color: var(--accet-txt-cl);
     text-decoration: none;
 }
-.header-lis,
+.header-list,
 .header-nav {
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+}
+.header-list:hover
+.header-list:focus {
+    color: var(--accet-txt-cl);
+}
+.header-item-current:hover, 
+.header-item-current:focus,
+.header-item-current:active {
+    color: var(--accet-txt-cl);
+}
+.header-item-current-section:hover,
+.header-item-current-section:focus,
+.header-item-current-section:active {
+color: var(--accet-txt-cl)
+}
+.header-item:hover,
+.header-item:focus {
+color: var(--accet-txt-cl)
+}
+.header-mail-current:hover,
+.header-mail-current:focus {
+color: var(--accet-txt-cl)
+}
+.header-phone:hover,
+.header-phone:focus {
+color: var(--accet-txt-cl)
+}
+.work-button-item:hover,
+.work-button-item:focus {
+    color: var(--accet-txt-cl)
+}
 
-}
-.header-nav:hover 
-.header-nav:focus {
-    color: var(--accet-txt-cl);
-}
-
-.header-item-current,
-.header-item-current-section {
-    color: var(--accet-txt-cl);
-}
-.header-mail-current {
-    color: var(--accet-txt-cl);
-}
 /**
 |============================
 | Hero section
@@ -97,16 +114,7 @@
 .tim-info {
     text-align: center;
 }
-.work-cards{
-list-style: none;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-}
+
 /**
 |============================
 | Footer section
@@ -128,7 +136,7 @@ color: #212121;
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: calc(31 /26);
+    line-height: calc(31 / 26);
     text-decoration: none;
 }
 .web {
@@ -139,9 +147,3 @@ color: #212121;
     color: white;
     text-decoration: none;
 }
-
-/**
-|============================
-| Header section
-|============================
-*/
