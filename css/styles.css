@@ -18,7 +18,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-txy-cl);
-  background-color: var(--light-bg-cl);
+  background-color: #ffffff;
 }
 /* reset styles */
 .link {
@@ -27,7 +27,6 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: currentColor;
-  font-style: normal;
 }
 .list {
   list-style: none;
@@ -41,7 +40,6 @@ body {
 .logo {
   color: var(--main-txy-cl);
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -50,17 +48,17 @@ body {
 .web {
   font-family: var(--secondary-font);
   color: var(--accet-txt-cl);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   text-decoration: none;
 }
-.header-item-current,
-.header-mail-current,
-.header-item-current-section {
+.hover-link:hover
+.hover-link:focus
+.hover-link:active {
   color: #2196f3;
 }
+
 .header-phone,
 .header-mail {
   color: #757575;
@@ -72,26 +70,18 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
-.header-list:hover,
-.header-list:focus {
+.header-item-current {
   color: var(--accet-txt-cl);
 }
-.header-item-current:hover,
-.header-item-current:focus,
-.header-item-current:active {
-  color: var(--accet-txt-cl);
-}
-.header-item-current-section:hover,
-.header-item-current-section:focus,
-.header-item-current-section:active {
+.header-item-current-section {
   color: var(--accet-txt-cl);
 }
 .header-item:hover,
 .header-item:focus {
   color: var(--accet-txt-cl);
 }
-.header-mail-current:hover,
-.header-mail-current:focus {
+.header-mail:hover,
+.header-mail:focus {
   color: var(--accet-txt-cl);
 }
 .header-phone:hover,
@@ -103,6 +93,7 @@ body {
   color: var(--accet-txt-cl);
 }
 .work-button-item {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -121,7 +112,6 @@ body {
 */
 .general-info {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -222,7 +212,6 @@ h2.info-about {
 }
 .footer {
   font-family: inherit;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
