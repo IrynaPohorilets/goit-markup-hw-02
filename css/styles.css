@@ -260,3 +260,7 @@ h2.info-about {
 .footer-phone:focus {
   color: var(--accet-txt-cl);
 }
+.footer-link:hover,
+.footer-link:focus {
+    var(--accet-txt-cl);
+}
